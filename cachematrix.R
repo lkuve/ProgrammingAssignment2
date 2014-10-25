@@ -48,7 +48,7 @@ cacheSolve <- function(x) {
 #     [1,] 0.00 0.25
 #     [2,] 0.25 0.00
 # >mkc <- makeCacheMatrix(x)
-# >cacheSolve(m)
+# >cacheSolve(mkc)
 #          [,1] [,2]
 #     [1,]    0    4
 #     [2,]    4    0
