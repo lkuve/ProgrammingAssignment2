@@ -27,7 +27,7 @@ makeCacheMatrix <- function(x = matrix()) {
 # It also verifies if the inverse call was previously made and result was cached.
 # if the cache already has an available value, it returns it,
 # if not, computes the inverse, caches it and returns the same
-cacheSolve <- function(x) {
+cacheSolve <- function(x, ...) {
     inv <- x$retrieveInverse()
     if (!is.null(inv)) {
       #retrieve the cached inverse here
